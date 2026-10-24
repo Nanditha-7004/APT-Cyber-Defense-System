@@ -1,0 +1,355 @@
+{
+  "total_events": 1470908,
+  "event_counts": {
+    "EVENT_BOOT": 1,
+    "EVENT_CLONE": 2529,
+    "EVENT_OPEN": 67130,
+    "EVENT_MMAP": 79879,
+    "EVENT_EXECUTE": 1312,
+    "EVENT_READ": 117892,
+    "EVENT_MPROTECT": 966800,
+    "EVENT_SENDTO": 7085,
+    "EVENT_WRITE": 48877,
+    "EVENT_CONNECT": 7300,
+    "EVENT_RECVMSG": 30537,
+    "EVENT_RECVFROM": 106503,
+    "EVENT_SENDMSG": 26470,
+    "EVENT_READ_SOCKET_PARAMS": 1724,
+    "EVENT_UNLINK": 6279,
+    "EVENT_WRITE_SOCKET_PARAMS": 339,
+    "EVENT_MODIFY_FILE_ATTRIBUTES": 46,
+    "EVENT_SHM": 205
+  },
+  "execution_samples": [
+    {
+      "uuid": "DC57AB81-8694-2215-0700-000000000010",
+      "sequence": {
+        "long": 6
+      },
+      "type": "EVENT_EXECUTE",
+      "threadId": {
+        "int": 3890
+      },
+      "hostId": "0A00063C-5254-00F0-0D60-000000000070",
+      "subject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "320FBB04-0000-0000-0000-000000000020"
+      },
+      "predicateObject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "0100D00F-48C5-0600-0000-00001D8CD528"
+      },
+      "predicateObjectPath": null,
+      "predicateObject2": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "00000000-0000-0000-0000-000000000000"
+      },
+      "predicateObject2Path": null,
+      "timestampNanos": 1522942929426667484,
+      "name": null,
+      "parameters": null,
+      "location": null,
+      "size": null,
+      "programPoint": null,
+      "properties": {
+        "map": {
+          "cmdLine": "sudo ./init.sh"
+        }
+      }
+    },
+    {
+      "uuid": "2191AC81-8694-2215-0800-000000000010",
+      "sequence": {
+        "long": 7
+      },
+      "type": "EVENT_EXECUTE",
+      "threadId": {
+        "int": 3890
+      },
+      "hostId": "0A00063C-5254-00F0-0D60-000000000070",
+      "subject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "320FBB04-0000-0000-0000-000000000020"
+      },
+      "predicateObject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "0100D00F-1C00-0400-0000-000048BC3714"
+      },
+      "predicateObjectPath": null,
+      "predicateObject2": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "00000000-0000-0000-0000-000000000000"
+      },
+      "predicateObject2Path": null,
+      "timestampNanos": 1522942929426747681,
+      "name": null,
+      "parameters": null,
+      "location": null,
+      "size": null,
+      "programPoint": null,
+      "properties": {
+        "map": {
+          "cmdLine": "sh ./init.sh"
+        }
+      }
+    },
+    {
+      "uuid": "4B6CB281-8694-2215-1700-000000000010",
+      "sequence": {
+        "long": 0
+      },
+      "type": "EVENT_EXECUTE",
+      "threadId": {
+        "int": 3891
+      },
+      "hostId": "0A00063C-5254-00F0-0D60-000000000070",
+      "subject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "330FBB04-0000-0000-0000-000000000020"
+      },
+      "predicateObject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "0100D00F-5400-0400-0000-0000480D5D16"
+      },
+      "predicateObjectPath": null,
+      "predicateObject2": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "00000000-0000-0000-0000-000000000000"
+      },
+      "predicateObject2Path": null,
+      "timestampNanos": 1522942929427131467,
+      "name": null,
+      "parameters": null,
+      "location": null,
+      "size": null,
+      "programPoint": null,
+      "properties": {
+        "map": {
+          "cmdLine": "mount -t debugfs debugfs /debug"
+        }
+      }
+    },
+    {
+      "uuid": "F4531E8A-8694-2215-6400-000000000010",
+      "sequence": {
+        "long": 0
+      },
+      "type": "EVENT_EXECUTE",
+      "threadId": {
+        "int": 3896
+      },
+      "hostId": "0A00063C-5254-00F0-0D60-000000000070",
+      "subject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "380FBB04-0000-0000-0000-000000000020"
+      },
+      "predicateObject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "0100D00F-1C00-0400-0000-000048BC3714"
+      },
+      "predicateObjectPath": null,
+      "predicateObject2": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "00000000-0000-0000-0000-000000000000"
+      },
+      "predicateObject2Path": null,
+      "timestampNanos": 1522942929568420852,
+      "name": null,
+      "parameters": null,
+      "location": null,
+      "size": null,
+      "programPoint": null,
+      "properties": {
+        "map": {
+          "cmdLine": "sh -c pgrep -f rsyslogd"
+        }
+      }
+    },
+    {
+      "uuid": "66A7AD8E-8694-2215-6D00-000000000010",
+      "sequence": {
+        "long": 0
+      },
+      "type": "EVENT_EXECUTE",
+      "threadId": {
+        "int": 3897
+      },
+      "hostId": "0A00063C-5254-00F0-0D60-000000000070",
+      "subject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "390FBB04-0000-0000-0000-000000000020"
+      },
+      "predicateObject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "0100D00F-F503-1C00-0000-00004862D511"
+      },
+      "predicateObjectPath": null,
+      "predicateObject2": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "00000000-0000-0000-0000-000000000000"
+      },
+      "predicateObject2Path": null,
+      "timestampNanos": 1522942929644922726,
+      "name": null,
+      "parameters": null,
+      "location": null,
+      "size": null,
+      "programPoint": null,
+      "properties": {
+        "map": {
+          "cmdLine": "pgrep -f rsyslogd"
+        }
+      }
+    },
+    {
+      "uuid": "6C402E41-8A94-2215-F403-000000000010",
+      "sequence": {
+        "long": 2
+      },
+      "type": "EVENT_EXECUTE",
+      "threadId": {
+        "int": 3899
+      },
+      "hostId": "0A00063C-5254-00F0-0D60-000000000070",
+      "subject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "3B0FCB04-0000-0000-0000-000000000020"
+      },
+      "predicateObject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "0100D00F-4C00-0400-0000-000048042016"
+      },
+      "predicateObjectPath": null,
+      "predicateObject2": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "00000000-0000-0000-0000-000000000000"
+      },
+      "predicateObject2Path": null,
+      "timestampNanos": 1522942945524596844,
+      "name": null,
+      "parameters": null,
+      "location": null,
+      "size": null,
+      "programPoint": null,
+      "properties": {
+        "map": {
+          "cmdLine": "ls --color=auto -al /data"
+        }
+      }
+    },
+    {
+      "uuid": "798DA2DD-8B94-2215-5604-000000000010",
+      "sequence": {
+        "long": 1
+      },
+      "type": "EVENT_EXECUTE",
+      "threadId": {
+        "int": 3901
+      },
+      "hostId": "0A00063C-5254-00F0-0D60-000000000070",
+      "subject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "3D0FD204-0000-0000-0000-000000000020"
+      },
+      "predicateObject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "0100D00F-3400-0400-0000-000048E02B15"
+      },
+      "predicateObjectPath": null,
+      "predicateObject2": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "00000000-0000-0000-0000-000000000000"
+      },
+      "predicateObject2Path": null,
+      "timestampNanos": 1522942952444431737,
+      "name": null,
+      "parameters": null,
+      "location": null,
+      "size": null,
+      "programPoint": null,
+      "properties": {
+        "map": {
+          "cmdLine": "grep --color=auto file"
+        }
+      }
+    },
+    {
+      "uuid": "1B21F0E1-8B94-2215-5704-000000000010",
+      "sequence": {
+        "long": 2
+      },
+      "type": "EVENT_EXECUTE",
+      "threadId": {
+        "int": 3900
+      },
+      "hostId": "0A00063C-5254-00F0-0D60-000000000070",
+      "subject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "3C0FD204-0000-0000-0000-000000000020"
+      },
+      "predicateObject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "0100D00F-7F00-0400-0000-0000484C0818"
+      },
+      "predicateObjectPath": null,
+      "predicateObject2": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "00000000-0000-0000-0000-000000000000"
+      },
+      "predicateObject2Path": null,
+      "timestampNanos": 1522942952516624667,
+      "name": null,
+      "parameters": null,
+      "location": null,
+      "size": null,
+      "programPoint": null,
+      "properties": {
+        "map": {
+          "cmdLine": "ps -aef"
+        }
+      }
+    },
+    {
+      "uuid": "21B2BB6D-9294-2215-2B0A-000000000010",
+      "sequence": {
+        "long": 14
+      },
+      "type": "EVENT_EXECUTE",
+      "threadId": {
+        "int": 3903
+      },
+      "hostId": "0A00063C-5254-00F0-0D60-000000000070",
+      "subject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "3F0FEE04-0000-0000-0000-000000000020"
+      },
+      "predicateObject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "0100D00F-1C00-0400-0000-000048BC3714"
+      },
+      "predicateObjectPath": null,
+      "predicateObject2": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "00000000-0000-0000-0000-000000000000"
+      },
+      "predicateObject2Path": null,
+      "timestampNanos": 1522942980631802401,
+      "name": null,
+      "parameters": null,
+      "location": null,
+      "size": null,
+      "programPoint": null,
+      "properties": {
+        "map": {
+          "cmdLine": "/bin/sh -e /proc/self/fd/9"
+        }
+      }
+    },
+    {
+      "uuid": "363C4875-9294-2215-390A-000000000010",
+      "sequence": {
+        "long": 0
+      },
+      "type": "EVENT_EXECUTE",
+      "threadId": {
+        "int": 3904
+      },
+      "hostId": "0A00063C-5254-00F0-0D60-000000000070",
+      "subject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "400FEE04-0000-0000-0000-000000000020"
+      },
+      "predicateObject": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "0100D00F-9200-0400-0000-0000485E8218"
+      },
+      "predicateObjectPath": null,
+      "predicateObject2": {
+        "com.bbn.tc.schema.avro.cdm18.UUID": "00000000-0000-0000-0000-000000000000"
+      },
+      "predicateObject2Path": null,
+      "timestampNanos": 1522942980758453302,
+      "name": null,
+      "parameters": null,
+      "location": null,
+      "size": null,
+      "programPoint": null,
+      "properties": {
+        "map": {
+          "cmdLine": "sleep 5"
+        }
+      }
+    }
+  ]
+}
